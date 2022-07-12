@@ -1,0 +1,131 @@
+.header-contract{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 0;
+    font-size: 2rem ;
+    font-weight: 700;
+    color: black;
+}
+
+.text-descipt{
+    font-size: 1.4rem ;
+    font-weight:600 ;
+    color: var(--text-black) ;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+}
+
+.link-contract , .list-item-icon-contract{
+    font-size: 1.4rem;
+    color: var(--text-black);
+    font-weight: 600 ;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+}
+
+.link-contract > i , .list-item-icon-contract > i{
+    margin-right: 1rem;
+    min-width: 1.4rem;
+}
+
+.form-input{
+    margin-bottom: 1.5rem;
+    background-color: var(--white-color) ;
+}
+
+.form-input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: var(--text-black);
+    font-weight: 700;
+}
+
+::placeholder{
+    color: black;
+    font-weight: 600;
+}
+
+.input-contract , .form-control{
+    outline: lightblue;
+    border: 1px solid #ddd;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.form-control{
+    width: 100%;
+}
+
+.form-input::placeholder{
+    color: black;
+    font-weight: 700;
+}
+
+.form-input--note{
+    display: block;
+}
+
+.form-input--info > .input-contract:first-child{
+    margin-right: 3rem;
+}
+
+.form-input--info > .input-contract{
+    width: 50%;
+}
+
+.input-contract , .form-control{
+    border-radius: 3px;
+    width: 100%;
+    flex: 1 ;
+    padding: 6px 1.2rem ;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.form-input--info{
+
+}
+
+.form-input--submit{
+    display: inline-block;
+    text-align: right;
+}
+
+.form-input--submit{
+    width: auto;
+}
+
+.form-input--submit > .input-contract{
+    background-color: var(--primary-color);
+    color : var(--white-color);
+    font-weight: 700;
+}
+
+.image-map{
+    width: 100%;
+}
+
+
+@media(max-width: 739px){
+    .form-contract{
+        margin-top: 3rem;
+    }
+
+    .form-input--info{
+        flex-wrap: wrap;
+    }
+
+    .form-input--info .input-contract{
+        width: 100%;
+        margin-right: 0 !important;
+        flex: unset;
+    }
+
+    .form-input--info .input-contract:not(first-child){
+        margin-top: 1.5rem;
+    }
+}

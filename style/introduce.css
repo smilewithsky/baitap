@@ -1,0 +1,242 @@
+.header{
+    position: relative;
+}
+
+.header-1 .header-list-1 > .header-list-item > a{
+    color: var(--white-color) !important;
+    font-weight: 600;
+}
+
+.header-2{
+    background-color: var(--white-color);
+}
+
+.header-2 .header-list-1{
+    justify-content: flex-start;
+}
+
+
+.header-list.header-list-2{
+    justify-content: flex-end !important;
+}
+
+
+
+.fixed{
+    background-color: var(--white-color);
+}
+
+.fixed .header-list .header-list-item > a{
+    color: var(--black-color) ;
+}
+
+
+.fixed .header-list .header-list-item__icon{
+    color: var(--black-color) ;
+}
+
+
+.header-list .header-list-item > a{
+    color: var(--black-color);
+}
+
+.header-list-item__icon{
+    color: var(--black-color) !important;
+}
+
+.header-1{
+    background-color: var(--primary-color);
+}
+
+
+
+/* customer start */
+.customer-container{
+
+}
+
+.customer-item{
+    display: flex;
+    align-items: center;
+    flex-direction : column ;
+    margin-top: 2rem;
+}
+
+.customer-item {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    min-height: 181px;
+}
+
+.customer-icon > img{
+    min-height: 7.5rem;
+}
+
+.customer-text-heading {
+    margin-top: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    color: var(--text-black);
+    font-weight: 700;
+}
+
+.customer-descipt {
+    font-size: 1.4rem;
+    color: var(--text-black);
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#customerId-list{
+    margin-bottom: 5rem;
+}
+/* customer end */
+
+/* team start */
+.team-title{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 3.5rem;
+    font-weight: 600;
+}
+
+.team-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+    margin-bottom: 3rem;
+}
+
+.team-content{
+    padding: 1.5rem 0;
+    text-align: center;
+    background: #f5f5f5;
+    width: 100%;
+}
+
+.team-text-heading{
+    font-size: 1.8rem;
+    margin: 1.5rem 0 ;
+    font-weight: 800 ;
+}
+
+.team-img{
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+.team-img:hover > .team-img__content{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.team-img__content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    z-index: 2;
+    background: rgba(0,0,0,.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+
+.social-list{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+.social-list-icon:not(first-child){
+    margin-left: 1rem;
+}
+
+.social-list > .social-list-icon > i{
+    font-size: 1.8rem;
+    color: var(--white-color)
+}
+
+.team-img > img{
+    width: 100%;
+    display: block;
+}
+
+.team-descipt{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+/* team end */
+
+/* about start */
+.about{
+    background-image: url(../images/introduce/1539450278-1680383513-custom.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5rem 1rem;
+}
+
+.about-descipt{
+    font-size: 35px;
+    color: var(--white-color);
+    line-height: 1.5;
+    font-weight: 700 ;
+}
+
+.about-info{
+    margin-top: 2.5rem;
+}
+
+.about-info > p{
+    font-weight: 600;
+    font-size: 1.4rem ;
+    line-height: 1.8rem;
+    color : var(--white-color) ;
+    text-transform: uppercase;
+}
+
+.about-progress{
+    width: 100%;
+    overflow: unset;
+    margin-top: 15px;
+    background: #333;
+    position: relative;
+    box-shadow: none;
+    height: 15px;
+    border-radius: 10px;
+}
+
+.progress-bar{
+    top: 0;
+    left: 0;
+    position: absolute ;
+    background-color: var(--primary-color);
+    height: 100% ;
+    border-radius: 10px;
+}
+
+.menu-header-mb-list > i{
+    color: var(--black-color) ;
+    cursor: pointer;
+}
+
+/* about end */
+
+@media(max-width: 739px){
+
+}
